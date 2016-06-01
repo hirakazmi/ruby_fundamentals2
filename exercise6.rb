@@ -1,5 +1,6 @@
-grocery_list = [ "mangos", "spices", "potatoes", "chocolate"]
+grocery_list = [ "carrots", "toilet paper", "apples", "salmon"]
 grocery_list << "rice"
+grocery_list.delete("salmon")
 grocery_list.sort!
 has_bananas = false
 
