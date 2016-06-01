@@ -3,11 +3,11 @@
 #   puts " #{cohort}: #{ (number * 1.05).to_i } "
 #   sum += number
 # end
-#need method, REDO!
+#need methods, REDO! T.T
 
 def display(students)
   students.each do |cohort, number|
-    puts " #{cohort}: #{number} "
+    puts " #{cohort}: #{number} students"
   end
 end
 
