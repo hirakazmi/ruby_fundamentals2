@@ -17,3 +17,4 @@ else
 end
 
 puts grocery_list.length
+puts grocery_list[1]
